@@ -1,0 +1,181 @@
+{
+  "root_dir": "data\\raw\\Agriculture-Vision-2021",
+  "splits_found": [
+    "train",
+    "val",
+    "test"
+  ],
+  "split_summaries": {
+    "train": {
+      "split_name": "train",
+      "exists": true,
+      "has_images_dir": true,
+      "has_rgb_dir": true,
+      "has_nir_dir": true,
+      "has_boundaries_dir": true,
+      "has_masks_dir": true,
+      "has_labels_dir": true,
+      "rgb_count": 20,
+      "nir_count": 20,
+      "boundary_count": 20,
+      "mask_count": 20,
+      "label_categories": [
+        "cloud_shadow",
+        "double_plant",
+        "planter_skip",
+        "standing_water",
+        "waterway",
+        "weed_cluster"
+      ],
+      "label_counts": {
+        "cloud_shadow": 20,
+        "double_plant": 20,
+        "planter_skip": 20,
+        "standing_water": 20,
+        "waterway": 20,
+        "weed_cluster": 20
+      },
+      "sample_ids": [
+        "13C8GTY66_1200-2200-1712-2712",
+        "2E7JMZFJL_3000-4000-3512-4512",
+        "2FJZXDIWM_1500-2500-2012-3012",
+        "3APPMAC8K_3500-4500-4012-5012",
+        "7RF2MAV8B_6000-7000-6512-7512",
+        "8VBADR4KG_1100-2100-1612-2612",
+        "911VK8KRX_5000-6000-5512-6512",
+        "BF3J4I6TR_4200-5200-4712-5712",
+        "D83BCIF7K_5200-6200-5712-6712",
+        "EQAYIPNCG_5500-6500-6012-7012",
+        "GBD4NJLVI_3200-4200-3712-4712",
+        "JYR8H78YW_2100-3100-2612-3612",
+        "KEP4MBVE7_1000-2000-1512-2512",
+        "LLV7JDILE_4100-5100-4612-5612",
+        "LX7WA1IQT_2200-3200-2712-3712",
+        "PKKN799QJ_2000-3000-2512-3512",
+        "QVNMTFCWV_4500-5500-5012-6012",
+        "RB7BFE9IQ_2500-3500-3012-4012",
+        "RLA3PNYV2_4000-5000-4512-5512",
+        "XRR6CQLDA_3100-4100-3612-4612"
+      ],
+      "missing_nir_ids": [],
+      "missing_boundary_ids": [],
+      "missing_mask_ids": [],
+      "image_formats": {
+        ".jpg": 20
+      },
+      "image_dimensions": {
+        "512x512": 20
+      },
+      "duplicate_files": []
+    },
+    "val": {
+      "split_name": "val",
+      "exists": true,
+      "has_images_dir": true,
+      "has_rgb_dir": true,
+      "has_nir_dir": true,
+      "has_boundaries_dir": true,
+      "has_masks_dir": true,
+      "has_labels_dir": true,
+      "rgb_count": 10,
+      "nir_count": 10,
+      "boundary_count": 10,
+      "mask_count": 10,
+      "label_categories": [
+        "cloud_shadow",
+        "double_plant",
+        "planter_skip",
+        "standing_water",
+        "waterway",
+        "weed_cluster"
+      ],
+      "label_counts": {
+        "cloud_shadow": 10,
+        "double_plant": 10,
+        "planter_skip": 10,
+        "standing_water": 10,
+        "waterway": 10,
+        "weed_cluster": 10
+      },
+      "sample_ids": [
+        "1FXQRCFNY_2000-3000-2512-3512",
+        "44IVDAUBV_3100-4100-3612-4612",
+        "4GAU33NZF_6000-7000-6512-7512",
+        "4KZ63KWQM_4000-5000-4512-5512",
+        "86TZJC1PB_2100-3100-2612-3612",
+        "8VGV8QI6E_1000-2000-1512-2512",
+        "9U2KPVAGY_4100-5100-4612-5612",
+        "C9YTNB4N9_5000-6000-5512-6512",
+        "XHAQRFYQA_1100-2100-1612-2612",
+        "ZQHVKB8H8_3000-4000-3512-4512"
+      ],
+      "missing_nir_ids": [],
+      "missing_boundary_ids": [],
+      "missing_mask_ids": [],
+      "image_formats": {
+        ".jpg": 10
+      },
+      "image_dimensions": {
+        "512x512": 10
+      },
+      "duplicate_files": []
+    },
+    "test": {
+      "split_name": "test",
+      "exists": true,
+      "has_images_dir": true,
+      "has_rgb_dir": true,
+      "has_nir_dir": true,
+      "has_boundaries_dir": true,
+      "has_masks_dir": true,
+      "has_labels_dir": false,
+      "rgb_count": 10,
+      "nir_count": 10,
+      "boundary_count": 10,
+      "mask_count": 10,
+      "label_categories": [],
+      "label_counts": {},
+      "sample_ids": [
+        "3GQ3IYJLK_2100-3100-2612-3612",
+        "42I8VR2U7_4100-5100-4612-5612",
+        "7ZVJZAE7A_3100-4100-3612-4612",
+        "E4828N32K_2000-3000-2512-3512",
+        "JR3KNXPBW_1100-2100-1612-2612",
+        "N6HNKCPY3_5000-6000-5512-6512",
+        "NAVZYFKA8_6000-7000-6512-7512",
+        "PWG49HXTM_3000-4000-3512-4512",
+        "TFHNW7XMX_1000-2000-1512-2512",
+        "TNP1C2JG9_4000-5000-4512-5512"
+      ],
+      "missing_nir_ids": [],
+      "missing_boundary_ids": [],
+      "missing_mask_ids": [],
+      "image_formats": {
+        ".jpg": 10
+      },
+      "image_dimensions": {
+        "512x512": 10
+      },
+      "duplicate_files": []
+    }
+  },
+  "total_samples": 40,
+  "total_rgb_images": 40,
+  "total_nir_images": 40,
+  "total_boundaries": 40,
+  "total_validity_masks": 40,
+  "known_categories": [
+    "cloud_shadow",
+    "double_plant",
+    "planter_skip",
+    "standing_water",
+    "waterway",
+    "weed_cluster"
+  ],
+  "missing_files_total": 0,
+  "duplicate_files_total": 0,
+  "all_dimensions_uniform": true,
+  "detected_dimensions": [
+    "512x512"
+  ]
+}
